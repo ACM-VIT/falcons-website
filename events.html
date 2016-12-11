@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from gj-designs.in/pethouse/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 03:40:42 GMT -->
+<head>
+	   	<title>Assailing Falcons - Events</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- bootstrap magic -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<!-- bootstrap date picker -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.css" />
+
+        <!-- theme custom -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Custombox -->
+		<link rel="stylesheet" href="css/custombox.css" />
+
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" />
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+        <!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+
+		<style>
+			.services .item .overlay{
+				overflow-y: scroll;
+			}
+			.services .item .overlay::-webkit-scrollbar
+			{
+  			width: 7px;  /* for vertical scrollbars */
+  			height: 12px; /* for horizontal scrollbars */
+			}
+
+			.services .item .overlay::-webkit-scrollbar-track
+			{
+  			background: rgba(0, 0, 0, 0.1);
+			}
+
+			.services .item .overlay::-webkit-scrollbar-thumb
+			{
+  			background: rgba(0, 0, 0, 0.5);
+			}
+			.custom-modal{
+				display: none;
+    		color: #fff;
+    		text-align: left;
+    		background: #ff6445;
+    		padding-top: 20px;
+    		padding-bottom: 40px;
+				height: 70vh;
+				overflow-y: scroll;
+			}
+			.gallery-btn{
+				background: #ff6445;
+				color: #fff;
+				padding: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-top: 14px;
+				transition: .3s;
+				border-radius: 4px;
+				text-align: center;
+				cursor: pointer;
+			}
+			.custom-modal .close{
+				margin-top: -10px;
+			}
+			.custom-modal .member-area img{
+					margin-top: 20px;
+			}
+
+		</style>
+	</head>
+
+
+	<body>
+
+		<header>
+
+			<div class="top-bar">
+				<div class="container">
+					<div class="col-md-12">
+						<ul class="top-socials">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+
+						<div class="right pull-right">
+							<span class="text"><i class="fa fa-map-marker"></i> 632014, Vellore, Tamil Nadu</span>
+							<span class="text"><i class="fa fa-phone"></i> 1800 200 123 456</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav class="navbar navbar-default">
+				<div class="container container-fluid">
+					<div class="col-md-12">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index-2.html"><img src="images/logo.png" alt="" /></a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="index-2.html">Home</a></li>
+								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li class="active"><a href="services.html">Events</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+								<li><a  class="m-open sitter" href="#modal">Find A Sitter</a></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</div><!-- /.container-fluid -->
+			</nav>
+
+			<!-- Modal -->
+			<div id="modal" class="modal-main container">
+				<div class="col-md-12">
+					<button type="button" class="close" onclick="Custombox.close();">
+						<span>&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="title">Find A Loving Dog Sitter</h4>
+					<p>Search thousands of trusted, insured pet sitters near you.</p>
+
+					<div class="inner-addon left-addon">
+						<i class="fa fa-map-marker"></i>
+						<input type="text" class="form-control" placeholder="City or Zip" />
+						<button type="submit" class="btn btn-default">Find A Sitter</button>
+					</div>
+
+					<div class="radio">
+						<label class="radio-inline">
+							<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Overnight
+						</label>
+						<label class="radio-inline">
+							<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Daycare
+						</label>
+					</div>
+
+					<div class="dates">
+						<div class="input-group date" id="datetimepicker1">
+							<input type="text" class="form-control" placeholder="Start Date" />
+							<span class="input-group-addon">
+								<i class="fa fa-calendar"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="dates">
+						<div class="input-group date" id="datetimepicker2">
+							<input type="text" class="form-control" placeholder="End Date" />
+							<span class="input-group-addon">
+								<i class="fa fa-calendar"></i>
+							</span>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+
+		</header>
+		<!-- End Header Section -->
+
+		<!-- Start services Section -->
+		<div class="services">
+			<div class="container">
+				<div class="col-md-10 heading heading-r">
+					<h2><span class="color2">Our</span> <span class="color">Events</span></h2>
+				</div>
+			</div>
+
+
+
+			<div class="service2">
+					<div class="col-md-12">
+						<div id="owl-1" class="owl-carousel">
+							<div class="item">
+								<div class="overlay">
+									<h3>ENGINEERS' <br>DAY'16</h3>
+									<p>Engineers day is celebrated every September at VIT University, Vellore in commemoration of the birthday of
+										Bharat Ratna Visvesvaya (September 15, 1861). On this day students from all branches display their engineering
+										prowess in the form of Baja (off road) race cars, radio controlled aircraft models, new architectural designs
+										and many more. The teams explain their ideas to professors, students, and judges who later select the winning stalls. </p>
+
+									<p>It’s an exciting day for all the teams, who utilize this opportunity to showcase their talents to professors and key people
+										from various companies. For students (especially first years) this is a golden opportunity as it allows them to get involved
+										and actually apply their textual knowledge in the real world.  </p>
+										<p>Team Assailing Falcons has received a lot of appreciation over the last few years for the UAV’s, with which the team
+											participates annually in the SAE Aerodesign competition held in the USA. The team won the first prize last year (2015)
+											and received the consolation prize this year (2016).  </p>
+										</div>
+										<img src="images/services/1.png" alt="" />
+									</div>
+
+							<div class="item inner-shadow">
+								<div class="overlay">
+									<h3>GRAVITAS <br>EXPO'16</h3>
+									<p>GraVITas expo 2016 marked the display of our 2016 competition, SAE Aero Design plane Carvao. The expo saw a huge crowd of
+										 students turn up for seeing the display along with some other pre-graVITas display models. Students along with renowned
+										 faculties fro, different engineering streams witnessed the display. Our complete team was present at the event to clear
+										 the doubts of the students and faculties regarding the flying dynamics of the planes. Seeing the remarkable improvements
+										 that the team has witnessed in the due course of seven years since its inception, many of the students showed keen interest
+										 in joining the team and learning more about team dynamics and aero-modeling. The graVITas expo helped in boosting our moral
+										 so as to achieve much bigger feats in aeromodelling at R/C level realizing the enthusiasm that was prevalent among the audience
+										 who saw our last aircraft.  </p>
+									 </div>
+	 								<img src="images/services/2.png" alt="" />
+	 							</div>
+
+							<div class="item">
+								<div class="overlay">
+									<h3>NATIONAL <br>TECH EXPO</h3>
+									<p>Atmos’16, BITS Pilani Hyderabad Campus was a phenomenal environment with innovations and creations buzzing around the campus. The
+										subtleness of the fest and beauty of the campus had attracted budding engineers from all corners of the country. Team Assailing
+										Falcons, was a part of the competition “Tech Expo” in which students had to showcase their projects or startups which would benefit
+										the society and technological front of our country. Hundreds of teams showed up with their myriad and fascinating projects to prove
+										their technical prowess. It was tough competition as the prize funding was an integral part of any project or start-up. </p>
+
+										<p>We were nothing but prepared to win this competition. Our team regressively worked day and night to prepare Carvao for the competition.
+											Carvao was now ready to perform various socially benefitting operations like disaster aid, thermal imaging, and relief package dropping.
+											As a bonus, Carvao could be prepared for covert military or navy operations. We humbly showcased our plane to all the students, faculties
+											and the companies who visited us and we made sure they left with an aw-inspiring comment. It was challenging yet entertaining to answer all
+											the questions posed to us, as people from all walks of life were visiting us. The main sponsor of the event, CEO of WAT Consult, was impressed
+											 with what we had to showcase.  </p>
+										<p>Logistics and finances were a big issue for the team as Hyderabad was far and Carvao was big. However, all these problems were reduced to a
+											nibble when we were given the Second Best Project Award and twenty thousand rupees as funding. Accolades from our University and faculties flowed
+											in hearing this great news. The team is now motivated for such competitions and ready to face any challenge. We shall pave the way until the challenge
+											becomes an opportunity! </p>
+										</div>
+										<img src="images/services/3.png" alt="" />
+									</div>
+
+							<div class="item">
+								<div class="overlay">
+									<h3>SAE '12</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</div>
+								<img src="images/services/4.png" alt="" />
+							</div>
+
+							<div class="item inner-shadow">
+								<div class="overlay">
+									<h3>SAE '14'</h3>
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+								</div>
+								<img src="images/services/5.png" alt="" />
+							</div>
+
+							<div class="item">
+								<div class="overlay">
+									<h3>SAE '15'</h3>
+									<p>Right from the start, sae 2015 was a highly competitive event.  Hosted in Tampa city of Florida, sae 2015 was a mega event.</p>
+									<p>The plane we had designed for this competition was unique and eye catching for everyone throughout the event. A twin fin biplane,
+										 with double boom integration and an enormous 21 inch propeller was something very radical. Being a completely radical design, which
+										 no team had tried before, the nautilus was a prime attraction to all teams, organisers and sponsors.  </p>
+									<p>This didn’t deter us one bit. Falcons has been outperforming themselves ever since its formation 6 years ago. This year too, with a
+										gross payload carried of 30 lbs.  We received constant guidance from our seniors throughout the event.  </p>
+									<p>The first 6 days of the teams stay in Florida, the team dedicated to preparing a few spares and testing of the plane and its different
+										 systems. Various minor changes and fine tuning was done during this period. </p>
+									<p>The first day of the competition included the technical presentation and the technical inspection. The team performed resplendently in
+										 the technical presentation and scored *** points and was placed and with *** rank after this tier of the competition. Then in the technical
+										  inspection, our plane was heavily praised for its unique design and structures. A few minor safety measures were suggested, the plane was
+											then given a certification after those changes were implemented.  </p>
+									<p>On the second day of the competition the flight rounds began and the first flight round was very successful. The takeoff and landing of the
+										 plane was heavily appreciated by applause by all the spectators. By the second round of flight, the temperature had risen, causing a thermal
+										sink to be formed at the end of the runway. This caused almost all planes to either crash or have a failed attempt to take off. Our plane took
+										off the ground successfully but could not sustain flight. The plane faced a hard landing but on inspection, it was observer that the sturdy and
+										robust structure of the plane had withstood the hard landing and there was no damage at all. </p>
+									<p>The third and fourth rounds were conducted on the third day of the event. After performing succefully, in these rounds, team assailing falcons
+										was placed at the 11th position internationally and 1st in the Asia pacific region. The event as a whole was a very enlightening experience. The
+										amount of knowledge and experience that the team developed during the competition through interaction with other teams and officials from the sponsor
+										 companies was immense. Learning from their experience during the event through events that happened to them and which they observed in other teams,
+										 helped them guide and take forward the next team of juniors. </p>
+									<p>All in all, sae 2015 was a huge success for team assailing falcons. </p>
+								</div>
+								<img src="images/services/6.png" alt="" />
+							</div>
+
+							<div class="item">
+								<div class="overlay">
+									<h3>SAE '16</h3>
+									<p>The “mela” or as you would call it a fair of rc aircrafts and its young enthusiasts was about to begin as Team ASSAILING FALCONS touched down in the
+										City Of Angels on the eve of SAE Aerodesign 2016. As hyped as the event is, it didn’t fail to live upto its expectations even before it began. </p>
+									<p>It kicked off with a traditional presentations’ session wherein you would put forward your efforts in front of an inquisitive panel of judges. Falcons
+										 were all suited up ready to get into the game and come out with flying colours. We proved our mettle when they appreciated the amount of efforts we had
+										put in for the first ever advanced aircraft built by our team. The day ended on a high when both Carvao and Cirio passed the Technical Inspections and we
+										 were officially invited for Flyoffs  </p>
+									<p>Sleepless for the entire night, a feeling of nervousness was fast approaching as was the competition  </p>
+									<p>A beautiful Saturday for flyoff at 8am, we arrived at our launch station early in the morning to get the necessary briefings from our pilot, accordingly
+										we proceeded to make that count and get a result. Slowly and steadily all the workstations were occupied and we were ready to go into the first day of flight.
+										 The competition took off with the micro class aircrafts gaining momentum and steadily moved onto regular and advanced rounds. We were able to see the fierce
+										 competition we had in front of us in the form Warsaw Institute Of Technology who had retained their title for 3 consecutive years </p>
+									<p> The moment we were all waiting for had finally arrived, Carvao was waiting at the flight line all geared up to take to the American sky. Triggering itself
+										 to its max potential, on it went to sail in the sky as the Air Boss blew up the whistle. Lifting its wings like a beautiful bird it took off and with it took
+										  off our hardwork and dreams. Climbing like a giant bird it raised to a height of about 400ft within a matter of seconds which was a record second to none in
+											the entirety of SAE’s long history. Definitely a proud moment for us when it achieved its mission statement of humanitarian aid by dropping an aid package from
+											the sky by a completely autonomous system designed to meet its requirement.    </p>
+									<p>The competition went on for four rounds with a close competition up top. In the end we secured a 7th rank internationally and 1st in Asia. Warsaw came out on top
+										yet again with their Baccarat and secured their top position again. It was an eventful day ending with the prize distribution ceremony. </p>
+									<p>A lot of dreams took off and a whole lot of others were inspired to achieve even greater heights for the next year. Undoubtedly it was again a successful year for
+										 the SAE Aerodesign committee who had organised the entire competition. The event ended after 3 days and we were finally on our way back home leaving the City of
+										 Angels with loads of memories to look upto. </p>
+									 </div>
+ 									<img src="images/services/7.png" alt="" />
+ 								</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<!-- End Services Section -->
+
+		<!-- Start Photo Section -->
+		<div class="insurance">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="media-heading">From Gallery</h4>
+							<br><br>
+						</div>
+					</div>
+				<div class="col-sm-2">
+					<div class="e-open1 gallery-btn" href="#event1">Engineer's Day</div>
+				</div>
+				<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open1').on('click', function(e) {
+								Custombox.open({
+		                target: '#event1',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event1" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">Engineers' Day16'</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>Engineers' Day16'</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="ed/1.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/2.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/3.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/4.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="ed/5.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/6.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/7.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/8.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="ed/9.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/10.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/11.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/12.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="ed/13.png" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="ed/14.png	" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open2 gallery-btn" href="#event2">GraVITas Expo'16</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open2').on('click', function(e) {
+								Custombox.open({
+		                target: '#event2',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event2" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">GraVITas Expo'16</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>graVITas Expo'16</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="gra/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/4.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="gra/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/8.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="gra/9.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/10.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/11.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="gra/12.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open3 gallery-btn" href="#event3">National Tech Expo</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open3').on('click', function(e) {
+								Custombox.open({
+		                target: '#event3',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event3" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">National Tech Expo</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>ABC</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="nt/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="nt/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/8.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/9.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="nt/10.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/11.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="nt/12.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open4 gallery-btn" href="#event4">SAE'12</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open4').on('click', function(e) {
+								Custombox.open({
+		                target: '#event4',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event4" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">SAE'12</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>SAE'12</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="sae12/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/4.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae12/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/8.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae12/9.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae12/10.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open5 gallery-btn" href="#event5">SAE'14</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open5').on('click', function(e) {
+								Custombox.open({
+		                target: '#event5',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event5" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">SAE'14</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>SAE'14</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="sae14/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/4.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae14/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/8.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae14/9.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/10.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/11.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae14/12.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae14/13.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open6 gallery-btn" href="#event6">SAE'15</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open6').on('click', function(e) {
+								Custombox.open({
+		                target: '#event6',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event6" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">SAE'15</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>SAE'15</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="sae15/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/4.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae15/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae15/8.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="e-open7 gallery-btn" href="#event7">SAE'16</div>
+				</div>
+				<script>
+					$(document).ready(function(){
+			        $('.e-open7').on('click', function(e) {
+								Custombox.open({
+		                target: '#event7',
+		                effect: 'blur'
+		            });
+		            e.preventDefault();
+			        });
+						});
+				</script>
+				<div id="event7" class="custom-modal modal-main container">
+					<div class="col-md-12">
+						<button type="button" class="close" onclick="Custombox.close();">
+							<span>&times;</span><span class="sr-only">Close</span>
+						</button>
+
+						<div class="inner-addon left-addon">
+							<button type="submit" class="btn btn-default">SAE'16</button>
+
+
+							<div class="col-sm-12 member-area">
+					        <h4>SAE'16</h4>
+
+									<div class="row">
+								    <div class="col-sm-6">
+								      <img src="sae16/1.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae16/2.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae16/3.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae16/4.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+										<div class="col-sm-6">
+								      <img src="sae16/5.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae16/6.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+								    <div class="col-sm-6">
+								      <img src="sae16/7.jpg" class="img-responsive" style="width:100%" alt="Image">
+								    </div>
+							
+
+								  </div>
+						</div><br>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- End Photo Section -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="col-md-3 f-block">
+					<h3>About <span class="color">Us</span></h3>
+					<p>A chapter based out of Vellore Institute of Technology.We put the we in awesomeWe manufacture radio controlled
+						aircrafts which are designed and tested by the young students of our university with a mix of experienced faculty
+						and is based on rich history of achievements.  </p>
+					<img src="images/logo.png" class="f-logo" alt="" />
+				</div>
+
+				<div class="col-md-3 f-block">
+					<h3>Latest <span class="color">Events</span></h3>
+					<ul class="posts">
+						<li><span class="p-txt">Engineers' Day'16</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">graVITas '16</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">National Tech Expo</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">SAE '12</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">SAE '14</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">SAE '15</span>  <a href="#" class="r-more color">(Read More)</a></li>
+						<li><span class="p-txt">SAE '16</span>  <a href="#" class="r-more color">(Read More)</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 f-block">
+					<h3>Photo <span class="color">Stream</span></h3>
+					<ul class="pics">
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="img.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="ima.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="yellow.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="last.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="500.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="screen"></div>
+								<img src="875.png" alt="" />
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 f-block">
+					<h3>Keep In <span class="color">Touch</span></h3>
+					<p>Contact us.</p>
+					<ul class="f-info">
+						<li><i class="fa fa-envelope"></i> <a href="#" class="color">falconsofficial@gmail.com</a></li>
+						<li><i class="fa fa-phone"></i> <span class="color">+1800 123 456</span></li>
+					</ul>
+				</div>
+
+				<div class="col-md-12 bottom-bar">
+					<div class="txt-l">
+						© Copyright 2015. Made With  <span class="color"><i class="fa fa-heart"></i></span>
+
+						<ul class="f-socials pull-right">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+
+
+
+
+		<!-- Jquery Libs -->
+		<!-- Latest Version Of Jquery -->
+		<!-- Bootstrap Jquery -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jqmeter.min.js"></script>
+		<!-- Owl Carousel -->
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<!-- CustomBox -->
+		<script type="text/javascript" src="js/custombox.js"></script>
+		<script type="text/javascript" src="js/legacy.js"></script>
+		<!-- WayPoints -->
+		<script type="text/javascript" src="js/waypoints.min.js"></script>
+		<!-- Moment With Locales -->
+		<script type="text/javascript" src="js/moment-with-locales.js"></script>
+		<!-- Bootstrap Date Picker -->
+		<script type="text/javascript" src="js/bootstrap-datetimepicker.js"></script>
+		<!--To-Top Button Plugin -->
+		<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+		<!--Easing animations Plugin -->
+		<script type="text/javascript" src="js/easing.js"></script>
+		<!-- Theme Custom -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+
+
+	</body>
+
+<!-- Mirrored from gj-designs.in/pethouse/services.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 22 Oct 2016 03:40:42 GMT -->
+</html>
