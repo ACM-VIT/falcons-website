@@ -1,0 +1,24 @@
+{
+  "name": "falcons",
+  "version": "1.0.0",
+  "description": "Falcons website",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build" : "webpack -p",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "webpack-css-loaders": "^1.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
